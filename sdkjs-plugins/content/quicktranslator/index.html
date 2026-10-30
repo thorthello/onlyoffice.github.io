@@ -78,7 +78,7 @@
           <option value="da">DA - Danish</option>
           <option value="de">DE - German</option>
           <option value="el">EL - Greek</option>
-          <option value="en">EN - English</option>
+          <option value="en" selected>EN - English</option>
           <option value="es">ES - Spanish</option>
           <option value="et">ET - Estonian</option>
           <option value="fi">FI - Finnish</option>
@@ -87,7 +87,7 @@
           <option value="hu">HU - Hungarian</option>
           <option value="id">ID - Indonesian</option>
           <option value="is">IS - Icelandic</option>
-          <option value="it" selected>IT - Italian</option>
+          <option value="it">IT - Italian</option>
           <option value="ja">JA - Japanese</option>
           <option value="ko">KO - Korean</option>
           <option value="lt">LT - Lithuanian</option>
@@ -115,7 +115,6 @@
         <select id="serviceSelect" class="engine-select" aria-label="Translation Engine">
           <option value="google" selected>Google Translate</option>
           <option value="libre">LibreTranslate</option>
-          <option value="deepl">DeepL API</option>
         </select>
       </div>
       <button id="translateBtn" class="btn-translate" type="button">
@@ -123,25 +122,6 @@
         <span id="translateBtnText">Translate</span>
       </button>
     </section>
-
-    <!-- Dynamic API Key Row (when DeepL or Libre chosen) -->
-    <div id="apiKeyGroup" class="api-key-group" style="display: none;">
-      <div class="api-key-header-row">
-        <label for="apiKeyInput" id="apiKeyLabel" class="field-label">API Key</label>
-        <span id="apiKeyHint" class="field-hint">Required for DeepL</span>
-      </div>
-      <div class="api-key-wrapper">
-        <input
-          type="password"
-          id="apiKeyInput"
-          class="api-key-input"
-          placeholder="Enter API Key..."
-          autocomplete="off"
-          spellcheck="false"
-        />
-        <button type="button" id="toggleApiKeyBtn" class="btn-toggle-key" title="Toggle visibility">👁</button>
-      </div>
-    </div>
 
     <!-- Fallback / Switch Notice Banner -->
     <div id="fallbackNotice" class="fallback-notice" style="display: none;"></div>

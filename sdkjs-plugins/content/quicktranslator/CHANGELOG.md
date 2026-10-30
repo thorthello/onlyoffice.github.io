@@ -2,6 +2,18 @@
 
 All notable changes to the QuickTranslator plugin are documented in this file.
 
+## [1.3.3] - 2026-10-30
+### Added
+- Dynamic initial target language detection via `window.Asc.plugin.info.lang`, adapting to the user's ONLYOFFICE UI language with English default fallback.
+
+### Fixed
+- Fixed false positive network block detection in `isHtmlResponse()` by eliminating word matching on translated text ("Access denied", "autenticazione", etc.).
+- Localized all internal status, error, and fallback notifications to pure English.
+
+### Changed
+- Removed DeepL translation engine and API key UI due to browser CORS restrictions on client-side requests, streamlining QuickTranslator into a 100% free, zero-config tool.
+- Updated Privacy and Data Disclosure in `README.md` to accurately disclose Google Translate, LibreTranslate, and MyMemory.
+
 ## [1.3.2] - 2026-09-15
 ### Added
 - Official ONLYOFFICE Marketplace store metadata, screenshots, and assets (`resources/store/`).

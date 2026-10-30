@@ -315,60 +315,6 @@ body.quicktranslator-body {
   to { transform: rotate(360deg); }
 }
 
-/* API Key Group */
-.api-key-group {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  padding: 6px 8px;
-  background-color: var(--bg-card);
-  border-radius: var(--radius-sm);
-  border: 1px solid var(--border-color);
-}
-
-.api-key-header-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.field-hint {
-  font-size: 9px;
-  color: var(--text-muted);
-}
-
-.api-key-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.api-key-input {
-  width: 100%;
-  padding: 4px 24px 4px 6px;
-  font-size: 11px;
-  font-family: monospace;
-  color: var(--text-primary);
-  background-color: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-sm);
-  outline: none;
-}
-
-.api-key-input:focus {
-  border-color: var(--border-focus);
-}
-
-.btn-toggle-key {
-  position: absolute;
-  right: 4px;
-  background: none;
-  border: none;
-  color: var(--text-secondary);
-  cursor: pointer;
-  font-size: 11px;
-}
-
 /* Fallback Notice */
 .fallback-notice {
   padding: 5px 8px;

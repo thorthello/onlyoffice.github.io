@@ -13,7 +13,7 @@ Compatible with:
 
 - ⚡ **Auto-Translation on Open/Selection**: Instantly detects and translates selected text as soon as the panel opens.
 - 💾 **Smart Target Language Memory**: Remembers your preferred target language across sessions using `localStorage`.
-- ⇄ **One-Click Language Swap**: Swaps source and target with smart fallback rules (AUTO -> IT & DA).
+- ⇄ **One-Click Language Swap**: Swaps source and target with smart fallback rules.
 - 📥 **One-Click Document Insertion**: Inserts translated text directly at current selection/cursor in Docs, Sheets, and Slides.
 - 🌍 **Comprehensive Language Support**: European, Nordic, and Asian languages sorted alphabetically.
 - 🛡️ **GPL v3 Open Source**: Free and open source license.
@@ -33,6 +33,6 @@ Compatible with:
 
 ## Privacy and Data Disclosure
 
-QuickTranslator sends the text you select directly to external third-party translation providers via their respective APIs to perform translations (such as Google Translate, DeepL, or Google AI Studio, depending on your configuration). 
+QuickTranslator sends the text you select directly to external third-party translation providers via their respective APIs to perform translations (such as Google Translate, LibreTranslate, or MyMemory, depending on your configuration and network availability). 
 
 Please avoid submitting sensitive, confidential, or personally identifiable information if your organization's security policy or privacy standards prohibit sharing data with these external services.
